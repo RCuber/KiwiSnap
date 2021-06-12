@@ -59,9 +59,9 @@ namespace KiwiSnap
         public int RectangleWidth = new int();
 
         private Graphics g;
-        private Pen MyPen = new Pen(Color.Black, 1);
+        private Pen MyPen = new Pen(Color.Black, 2);
         private SolidBrush TransparentBrush = new SolidBrush(Color.White);
-        private Pen EraserPen = new Pen(Color.FromArgb(255, 255, 192), 1);
+        private Pen EraserPen = new Pen(Color.FromArgb(255, 255, 192), 2);
         private SolidBrush eraserBrush = new SolidBrush(Color.FromArgb(255, 255, 192));
 
         protected override void OnMouseClick(MouseEventArgs e)

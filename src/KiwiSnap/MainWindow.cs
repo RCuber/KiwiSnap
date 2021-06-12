@@ -115,11 +115,11 @@ namespace KiwiSnap
             if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
             {
                 int vkCode = Marshal.ReadInt32(lParam);
-                if ((Keys)vkCode == Keys.F12)
+                if ((Keys)vkCode == Keys.F10)
                 {
                     GrabScreen();
                 }
-                else if ((Keys)vkCode == Keys.F11)
+                else if ((Keys)vkCode == Keys.F9)
                 {
                     InvokeCapture();
                 }
@@ -167,13 +167,13 @@ namespace KiwiSnap
 
             if (numberOfTextLinesToMove > 0)
             {
-                this.Width -= 50;
-                this.Height -= 50;
+                this.Width += 50;
+                this.Height += 50;
             }
             else
             {
-                this.Width += 50;
-                this.Height += 50;
+                this.Width -= 50;
+                this.Height -= 50;
             }
         }
 
