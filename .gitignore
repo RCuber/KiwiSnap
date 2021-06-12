@@ -1,3 +1,7 @@
 
 src/KiwiSnap/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
 src/KiwiSnap/obj/Debug/KiwiSnap.csprojAssemblyReference.cache
+/src/KiwiSnap/bin
+/src/KiwiSnap/obj/Debug
+/src/KiwiSnap/obj/Release
+/src/.vs/KiwiSnap/v16/.suo
